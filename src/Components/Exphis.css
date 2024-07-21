@@ -1,0 +1,72 @@
+.ehmain{
+  height:100vh;
+  background-image: url("https://img.freepik.com/free-photo/calculator-cup-coffee-dollar-bills-colored-background-flat-lay_169016-24508.jpg?t=st=1713455595~exp=1713459195~hmac=16d2f022fe06b37e2744af6a4b89455072dda9ef5fc262b03eb2abee29823a70&w=2000");
+  background-size: cover;
+  background-position: center;
+  
+}
+.ssupload{
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #d2bfe5;
+  width: 500px;
+  height: 550px;
+  margin: 10%;
+  margin-left: 50px;
+  margin-bottom: 70px;
+}
+.expense-history-container {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.expense-list {
+  list-style: none;
+  margin:50px;
+  padding:0;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.expense-listdiv {
+  background-color: #bfa1dd;
+  box-sizing: border-box;
+}
+
+h2{
+  margin-top: 30px;
+}
+
+.expense-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.expense-details {
+  flex-grow: 1;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+h3{
+  display: inline-block;
+  margin:5px;
+}

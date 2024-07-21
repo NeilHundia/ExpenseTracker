@@ -1,0 +1,59 @@
+.ccmain{
+  height:100vh;
+  background-image: url("https://img.freepik.com/free-photo/calculator-cup-coffee-dollar-bills-colored-background-flat-lay_169016-24508.jpg?t=st=1713455595~exp=1713459195~hmac=16d2f022fe06b37e2744af6a4b89455072dda9ef5fc262b03eb2abee29823a70&w=2000");
+  background-size: cover;
+  background-position: center;
+}
+
+.currency-converter {
+  width: 500px;
+  height: 450px;
+  margin: 10%;
+  margin-left: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+}
+
+.csinput {
+  width: 80px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+input[type="number"],
+select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  padding:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="number"]{
+  box-sizing: border-box;
+}
+
+.csinputbtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.conversion-result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86vh;
+  background-image: url("https://img.freepik.com/free-photo/calculator-cup-coffee-dollar-bills-colored-background-flat-lay_169016-24508.jpg?t=st=1713455595~exp=1713459195~hmac=16d2f022fe06b37e2744af6a4b89455072dda9ef5fc262b03eb2abee29823a70&w=2000");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  text-align: center;
+  color: #000000;
+  padding: 20px;
+  margin-right: 50%;
+  margin-bottom: 15%;
+}
+
+.heading {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.get-started-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* 
+background-size: cover; -> Resize the background image to cover the entire container 
+
+*/

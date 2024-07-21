@@ -1,0 +1,62 @@
+.upload-container {
+  margin:40px;
+}
+
+.upload-input {
+  display: none;
+  margin:20px;
+  margin-top: 40px;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 150px;
+  margin-top:50px;
+}
+
+.upload-label:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #000000;
+  margin-top: 10px;
+}
+
+.extracted-data {
+  margin-top: 20px;
+}
+
+.extracted-list {
+  list-style: none;
+  padding: 0;
+}
+
+.extracted-item {
+  margin-bottom: 10px;
+}
+
+.extracted-item-heading {
+  font-weight: bold;
+}
+
+.upload-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:20px;
+  margin-top: 40px;
+  margin-left: 110px;
+  width: 50%;
+}

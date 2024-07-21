@@ -1,0 +1,84 @@
+.registermain{
+  background-image: url("https://img.freepik.com/free-photo/calculator-cup-coffee-dollar-bills-colored-background-flat-lay_169016-24508.jpg?t=st=1713455595~exp=1713459195~hmac=16d2f022fe06b37e2744af6a4b89455072dda9ef5fc262b03eb2abee29823a70&w=2000");
+  background-size: cover;
+  background-position: center;
+}
+
+.register-container {
+  width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 80px;
+  margin-left:30px;
+  margin-bottom:120px;
+}
+
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container label {
+  /* margin-bottom: 10px; */
+  display: block;
+
+}
+
+.register-container select{
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width:25%;
+  margin-right: 5px;
+  box-sizing: border-box;
+  margin-left:10px
+
+}
+
+.register-container input[type="text"],
+.register-container input[type="password"],
+.register-container input[type="date"] {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-right: 5px;
+  box-sizing: border-box;
+
+}
+
+.register-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.register-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background-color: #0056b3;
+}
+
+.pct{
+  display: inline-block;
+}
+
+.pctselect{
+  width:25%;
+}
+
+p{
+  margin:0;
+  padding:0;
+  text-align: center;
+}

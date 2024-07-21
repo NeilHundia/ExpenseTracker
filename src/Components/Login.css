@@ -1,0 +1,66 @@
+.main {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/calculator-cup-coffee-dollar-bills-colored-background-flat-lay_169016-24508.jpg?t=st=1713455595~exp=1713459195~hmac=16d2f022fe06b37e2744af6a4b89455072dda9ef5fc262b03eb2abee29823a70&w=2000");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container {
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  margin: 10%;
+  margin-left: 35px;
+  margin-bottom: 230px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 10px;
+
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  /* margin:5px;     */
+  margin-right: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top:15px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
